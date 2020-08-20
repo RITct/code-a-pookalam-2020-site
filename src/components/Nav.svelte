@@ -1,0 +1,7 @@
+<script>
+  export let segment;
+</script>
+
+<style></style>
+
+<nav></nav>
