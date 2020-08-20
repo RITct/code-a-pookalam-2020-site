@@ -13,27 +13,37 @@
     }
     .stick{
         flex: 1;
+        background-image: url("/svg/post.svg");
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
     }
     .about{
         flex:2;
+        font-family: "raleway";
+        font-size: 1.2em;
+        max-width: 600px;
     }
 </style>
 
 <div class="container">
-    <div class="bannerContainer">
-        <div class="banner"/>
-    </div>
+    <div class="bannerContainer"/>
     <div class="row">
         <div class="stick"/>
         <div class="about">
             <p>
-                Let Mahabal blah blah blah dsadsadsadasdsadas
+                Let Mahabali’s return to Earth this year let you and your family celebrate a prosperous onam! What better way to welcome his majesty than with a pookalam, with a twist :) .
             </p>
             <p>
-                dasdsadasdsadasdsadasda
+                TinkerHub RIT presents <b>Code A Pookalam</b> contest! 
             </p>
             <p>
-                dasdsadsadasdasdasdasdasda
+                Bring out your creativity by creating a pookalam design using any GUI Programming Language.
+            </p>
+            <p>
+                Get Coding!
             </p>
         </div>
     </div>

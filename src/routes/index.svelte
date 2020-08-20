@@ -1,6 +1,7 @@
 <script>
   import IntroSection from '../components/HomePage/Intro.svelte'
   import AboutSection from '../components/HomePage/About.svelte'
+  import GuideSection from '../components/HomePage/Guidelines.svelte'
 </script>
 <style></style>
 
@@ -10,3 +11,4 @@
 
 <IntroSection/>
 <AboutSection/>
+<GuideSection/>
