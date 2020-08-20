@@ -26,7 +26,7 @@
   .span{
     font-size: 0.5em;
     font-family: "raleway";
-    margin-bottom: 3em;
+    font-weight: 600;
   }
 </style>
 
