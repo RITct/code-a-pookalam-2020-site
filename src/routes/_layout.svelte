@@ -6,7 +6,6 @@
 
 <style>
 	main {
-		position: relative;
 		max-width: 75em;
 		background-color: white;
 		padding: 2em;
