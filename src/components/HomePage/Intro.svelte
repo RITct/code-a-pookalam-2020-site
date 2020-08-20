@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: left;
+    font-family: "consolas";
   }
 </style>
 

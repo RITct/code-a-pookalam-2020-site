@@ -12,7 +12,7 @@
 		padding: 2em;
 		margin: 0 auto;
 		box-sizing: border-box;
-		background-color: yellow;
+		background-color: #E8A93F;
 	}
 </style>
 
