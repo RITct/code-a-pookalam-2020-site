@@ -13,6 +13,13 @@
 		box-sizing: border-box;
 		background-color: #E8A93F;
 	}
+	@media only screen and (max-width: 720px) {
+		main{
+			max-width: unset;
+			width: 100%;
+			padding:0;
+		}
+	}
 </style>
 
 <Nav {segment}/>

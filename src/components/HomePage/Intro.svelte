@@ -3,9 +3,10 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     font-family: "consolas";
     font-size: 2.5em;
+    flex-direction: column;
   }
   .pookalam{
     background-image: url("/svg/pookalam.svg");
@@ -22,11 +23,30 @@
   }
   .writing{
     margin-left: 2em;
+    align-self: flex-start;
   }
   .span{
     font-size: 0.5em;
     font-family: "raleway";
     font-weight: 600;
+  }
+  @media only screen and (max-width: 720px) {
+    .pookalam{
+      position: relative;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      max-width: 280px;
+      max-height: 280px;
+    }
+    .container{
+      align-items: flex-end;
+      justify-content: flex-start;
+    }
+    .writing{
+      align-self: center;
+      margin-left: 0;
+    }
   }
 </style>
 

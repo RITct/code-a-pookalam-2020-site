@@ -2,18 +2,22 @@
     .container{
         display: flex;
         height: 80vh;
-        flex-direction: column;
+        flex-direction: column;;
     }
     .bannerContainer{
         width: 100%;
-        height: 25%;
+        height: 100%;
+        background-image: url("/thoranam.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
     }
     .row{
         display: flex;
     }
     .stick{
         flex: 1;
-        background-image: url("/svg/post.svg");
+        background-image: url("/prize.png");
         height: 100%;
         width: 100%;
         background-repeat: no-repeat;
