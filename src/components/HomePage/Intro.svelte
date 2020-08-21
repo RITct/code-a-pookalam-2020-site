@@ -30,6 +30,12 @@
     font-family: "raleway";
     font-weight: 600;
   }
+  @media only screen and (max-width: 1200px){
+    .pookalam{
+      height: 50vh;
+      width: 50vh;
+    }
+  }
   @media only screen and (max-width: 720px) {
     .pookalam{
       position: relative;
@@ -46,6 +52,7 @@
     .writing{
       align-self: center;
       margin-left: 0;
+      margin-top: 1em;
     }
   }
 </style>

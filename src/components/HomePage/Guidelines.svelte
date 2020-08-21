@@ -40,7 +40,7 @@
     margin: 0.5em 0 0.5em 0;
   }
 </style>
-
+<a id="GUIDELINES"></a>
 <div class="container">
   <div class="row">
     <div class="heading">Guidelines</div>

@@ -30,6 +30,22 @@
         font-size: 1.2em;
         max-width: 600px;
     }
+    @media only screen and (max-width: 720px) {
+        .stick{
+            display:none;
+        }
+        .about{
+            padding: 1em;
+            font-weight: 500;
+        }
+        .bannerContainer{
+            background-image: url("/date.png");
+            max-width: 280px;
+            padding: 0.5em;
+            display: flex;
+            margin: 0 auto;
+        }
+    }
 </style>
 
 <div class="container">
