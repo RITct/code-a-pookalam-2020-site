@@ -1,6 +1,6 @@
 <style>
   .container {
-    height: 100vh;
+    height: 95vh;
     display: flex;
     align-items: center;
     justify-content: center;

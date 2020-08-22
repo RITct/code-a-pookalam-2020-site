@@ -45,10 +45,24 @@
         line-height: 40px;
         max-width: 600px;
     }
+    .thoranam{
+        display: none;
+    }
     @media only screen and (max-width: 720px) {
         .about{
             padding: 1em;
             font-weight: 500;
+            padding: 0;
+        }
+        .about div:nth-child(2n-1){
+            padding: 1em;
+        }
+        .thoranam{
+        display: block;
+        width: 100%;
+        }
+        .thoranam img{
+            width: 100%;
         }
     }
     @media only screen and (max-width: 1200px) {
@@ -82,6 +96,7 @@
                     Is there anything more integral to the Mallu experience than Onam (with the possible exception of porotta and beef)? So why not combine your love for coding, with your love for all things Onam ?
                 </b>
             </div>
+            <div class="thoranam"><img src="/thoranam.png" alt="thoranam"></div>
             <div style="margin-top: 3em;">
                 This Onam season, TinkerHub RIT would like to give you the opportunity to do just that. Build the pookalam of your dreams using the GUI programming language of your choice for a chance to win prizes, in addition to brownie points for building a pookalam without plucking a single flower. So grab your laptop, put on your Onam jam and get coding!
             </div>

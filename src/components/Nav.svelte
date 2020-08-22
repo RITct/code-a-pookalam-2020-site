@@ -1,5 +1,19 @@
 <script>
   export let segment;
+  let y = 0;
+  let img;
+  $: headerClass = updateClass(y);
+  function updateClass(y) {
+    if (img) {
+      if (y > 100) {
+        img.src = "/code_logo.png";
+        img.style.top = 0;
+      } else {
+        img.src = "/thrit.png";
+        img.style.top = "1em";
+      }
+    }
+  }
 </script>
 
 <style>
@@ -45,9 +59,10 @@
   }
 </style>
 
+<svelte:window bind:scrollY="{y}" />
 <nav>
   <div class="imgContainer">
-    <img src="/thrit.png" />
+    <img bind:this="{img}" src="/thrit.png" />
   </div>
   <div class="flow"></div>
   <div class="item">code-a-pookalam</div>

@@ -33,6 +33,14 @@
     border: 1px solid #3b261e;
     opacity: 0.2;
   }
+  @media only screen and (min-width: 720px) {
+    .social {
+      justify-content: center;
+    }
+    .social div {
+      padding: 0 1em;
+    }
+  }
 </style>
 <div class="container">
   <div class="row">
