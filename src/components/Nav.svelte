@@ -6,7 +6,7 @@
   function updateClass(y) {
     if (img) {
       if (y > 100) {
-        img.src = "/code_logo.png";
+        img.src = "/svg/logo.svg";
         img.style.top = 0;
       } else {
         img.src = "/thrit.png";
@@ -70,10 +70,10 @@
   <div class="item">entries</div>
   <div class="item social">
     <div>
-      <a><img src="/insta.png" /></a>
+      <a href="https://instagram.com/tinkerhub.rit" target="_blank"><img src="/insta.png" /></a>
     </div>
     <div>
-      <a><img src="/fb.png" /></a>
+      <a href="https://www.facebook.com/TinkerHubRIT/" target="_blank"><img src="/fb.png" /></a>
     </div>
   </div>
 </nav>

@@ -48,9 +48,19 @@
       Still got questions? Contact Us :)
     </div>
     <div class="social">
-      <div><img src="/face.png" alt="" /></div>
-      <div><img src="/insta-round.png" alt="" /></div>
-      <div><img src="/mail.png" alt="" /></div>
+      <div>
+        <a href="https://www.facebook.com/TinkerHubRIT/" target="_blank"
+          ><img src="/face.png" alt="facebook"
+        /></a>
+      </div>
+      <div>
+        <a href="https://instagram.com/tinkerhub.rit" target="_blank"
+          ><img src="/insta-round.png" alt="insta"
+        /></a>
+      </div>
+      <div>
+        <a href="mailto:rit@tinkerhub.org" target="_blank"><img src="/mail.png" alt="mail" /></a>
+      </div>
     </div>
   </div>
   <hr />

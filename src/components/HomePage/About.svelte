@@ -12,6 +12,9 @@
         justify-content: space-between;
         margin-top: 7em;
     }
+    .bold{
+        font-weight: bold;
+    }
     .bg{
         height: 100%;
         width: 100%;
@@ -41,7 +44,7 @@
         flex:2;
         font-family: "raleway";
         font-size: 1.2em;
-        font-weight: 600;
+        font-weight: 500;
         line-height: 40px;
         max-width: 600px;
     }
@@ -92,9 +95,9 @@
         <div class="bg stick"/>
         <div class="about">
             <div>
-                <b>
+                <span class="bold">
                     Is there anything more integral to the Mallu experience than Onam (with the possible exception of porotta and beef)? So why not combine your love for coding, with your love for all things Onam ?
-                </b>
+                </span>
             </div>
             <div class="thoranam"><img src="/thoranam.png" alt="thoranam"></div>
             <div style="margin-top: 3em;">

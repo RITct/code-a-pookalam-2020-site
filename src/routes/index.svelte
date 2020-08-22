@@ -8,7 +8,7 @@
 <style></style>
 
 <svelte:head>
-  <title>Code-A-Pookalam</title>
+  <title>code a pookalam;</title>
 </svelte:head>
 
 <IntroSection/>
