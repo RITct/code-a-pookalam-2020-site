@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     font-family: "consolas";
-    font-size: 2.5em;
+    font-size: 4em;
     flex-direction: column;
   }
   .pookalam{
