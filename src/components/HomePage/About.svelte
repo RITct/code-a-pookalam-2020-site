@@ -1,33 +1,48 @@
 <style>
     .container{
         display: flex;
-        height: 80vh;
-        flex-direction: column;;
-    }
-    .bannerContainer{
-        width: 100%;
-        height: 100%;
-        background-image: url("/thoranam.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
+        height: 150vh;
+        flex-direction: column;
     }
     .row{
         display: flex;
-    }
-    .stick{
         flex: 1;
-        background-image: url("/prize.png");
+    }
+    .section2{
+        justify-content: space-between;
+        margin-top: 7em;
+    }
+    .bg{
         height: 100%;
         width: 100%;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
+    }
+    .stick{
+        flex: 1;
+        background-image: url("/date-pc.png");
+    }
+    .prize{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        max-width: 600px;
+    }
+    .cat{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        max-width: 430px;
+        border-top: 6px solid #A13E12;
+        padding-top: 2.5em;
     }
     .about{
         flex:2;
         font-family: "raleway";
         font-size: 1.2em;
+        font-weight: 600;
+        line-height: 40px;
         max-width: 600px;
     }
     @media only screen and (max-width: 720px) {
@@ -38,33 +53,29 @@
             padding: 1em;
             font-weight: 500;
         }
-        .bannerContainer{
-            background-image: url("/date.png");
-            max-width: 280px;
-            padding: 0.5em;
-            display: flex;
-            margin: 0 auto;
-        }
     }
 </style>
 
 <div class="container">
-    <div class="bannerContainer"/>
     <div class="row">
-        <div class="stick"/>
+        <div class="bg stick"/>
         <div class="about">
-            <p>
-                Let Mahabali’s return to Earth this year let you and your family celebrate a prosperous onam! What better way to welcome his majesty than with a pookalam, with a twist :) .
-            </p>
-            <p>
-                TinkerHub RIT presents <b>Code A Pookalam</b> contest! 
-            </p>
-            <p>
-                Bring out your creativity by creating a pookalam design using any GUI Programming Language.
-            </p>
-            <p>
-                Get Coding!
-            </p>
+            <div>
+                <b>
+                    Is there anything more integral to the Mallu experience than Onam (with the possible exception of porotta and beef)? So why not combine your love for coding, with your love for all things Onam ?
+                </b>
+            </div>
+            <div style="margin-top: 3em;">
+                This Onam season, TinkerHub RIT would like to give you the opportunity to do just that. Build the pookalam of your dreams using the GUI programming language of your choice for a chance to win prizes, in addition to brownie points for building a pookalam without plucking a single flower. So grab your laptop, put on your Onam jam and get coding!
+            </div>
+        </div>
+    </div>
+    <div class="row section2">
+        <div class="cat">
+            <img src="/svg/prize_cat.svg"/>
+        </div>
+        <div class="prize">
+            <img src="/svg/prize.svg"/>
         </div>
     </div>
 </div>
