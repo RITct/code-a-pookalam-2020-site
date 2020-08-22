@@ -29,13 +29,12 @@ code {
   font-family: menlo, inconsolata, monospace;
   font-size: calc(1em - 2px);
   color: #555;
-  background-color: #e8a93f;
   padding: 0.2em 0.4em;
   border-radius: 2px;
 }
 
 #sapper {
-  background-color: #e8a93f;
+  background: linear-gradient(180deg, #f79421 12.62%, #f7ab33 43.23%, #f9ef68 100%);
 }
 
 @font-face {

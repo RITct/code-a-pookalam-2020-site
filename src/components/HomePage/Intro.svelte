@@ -35,6 +35,9 @@
       height: 50vh;
       width: 50vh;
     }
+    .container{
+      font-size: 2.5em;
+    }
   }
   @media only screen and (max-width: 720px) {
     .pookalam{

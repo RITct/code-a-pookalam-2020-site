@@ -11,7 +11,7 @@
 		padding: 2em;
 		margin: 0 auto;
 		box-sizing: border-box;
-		background-color: #E8A93F;
+		background-color: inherit;
 	}
 	@media only screen and (max-width: 720px) {
 		main{

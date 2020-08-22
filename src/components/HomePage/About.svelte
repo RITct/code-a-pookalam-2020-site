@@ -46,12 +46,26 @@
         max-width: 600px;
     }
     @media only screen and (max-width: 720px) {
-        .stick{
-            display:none;
-        }
         .about{
             padding: 1em;
             font-weight: 500;
+        }
+    }
+    @media only screen and (max-width: 1200px) {
+        .stick{
+            display:none;
+        }
+        .cat{
+            display: none;
+        }
+        .prize{
+            padding: 0 3em 0 3em;
+            width: 100%;
+            height: 100%;
+        }
+        .prize img{
+            width: 100%;
+            height: 100%;
         }
     }
 </style>
