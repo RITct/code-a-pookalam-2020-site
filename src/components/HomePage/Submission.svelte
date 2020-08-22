@@ -16,8 +16,20 @@
     font-family: "raleway";
     font-style: normal;
     font-weight: 500;
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 32px;
+  }
+  @media only screen and (max-width: 720px) {
+    .container {
+      padding: 2em 1.5em 0 1.5em;
+      align-items: center;
+      justify-content: center;
+      border-top: 6px solid #a13e12;
+    }
+    .heading {
+      font-size: 1.5em;
+      border: none;
+    }
   }
 </style>
 

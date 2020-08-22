@@ -52,6 +52,9 @@
         }
     }
     @media only screen and (max-width: 1200px) {
+        .container{
+            height: unset;
+        }
         .stick{
             display:none;
         }

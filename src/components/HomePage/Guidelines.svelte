@@ -14,14 +14,14 @@
     color: #e5ab09;
   }
   .heading {
-    font-size: 2.5em;
+    font-size: 3em;
     font-family: "raleway-bold";
     font-weight: 900;
   }
   li {
     list-style-type: none;
     color: white;
-    padding-bottom: 1em;
+    padding-bottom: 1.5em;
     font-weight: 500;
   }
   ul {
@@ -37,6 +37,29 @@
     font-family: "raleway-bold";
     font-style: bolder;
     color: #e5ab09;
+  }
+  @media only screen and (max-width: 1200px) {
+    .container {
+      height: unset;
+      margin-top: 2em;
+      background-size: unset;
+      padding: 2em 1.5em 2em 1.5em;
+    }
+    .points,
+    ul {
+      margin-left: 0;
+      padding: 0;
+    }
+    .heading {
+      font-size: 2.2em;
+      text-transform: lowercase;
+    }
+    li div {
+      font-size: 1.5em;
+    }
+    li {
+      font-size: 1em;
+    }
   }
 </style>
 <a id="GUIDELINES"></a>
